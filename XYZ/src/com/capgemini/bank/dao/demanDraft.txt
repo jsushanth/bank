@@ -1,0 +1,12 @@
+create table demand_draft(
+transaction_Id int auto_increment primary key,
+customer_Name varchar(20),
+in_Favour_Of varchar(20),
+phone_number varchar(10),
+date_of_transaction date,
+dd_amount numeric(8,2),
+dd_commission int,
+dd_description varchar(50)
+)
+auto_increment=10001;
+
